@@ -197,8 +197,6 @@ def analisis_exploratorio(df, nombre):
                 f"   {col}: {len(outliers)} outliers ({len(outliers) / len(df) * 100:.2f}%)"
             )
 
-
-# Aplicar analisis a cada dataset
 analisis_exploratorio(catalog_orders, "Catalog_Orders")
 analisis_exploratorio(web_orders, "Web_Orders")
 analisis_exploratorio(products, "Products")
